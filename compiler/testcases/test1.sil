@@ -1,0 +1,21 @@
+decl
+	integer f(integer a,b);
+enddecl
+
+integer f (integer a,b) {
+	decl
+		integer mid, temp;
+	enddecl
+begin
+	return temp;
+end
+}
+
+integer main(){
+	decl
+		integer test;
+	enddecl
+begin
+		return 0;
+end
+}

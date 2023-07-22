@@ -1,0 +1,11 @@
+decl 
+integer a;
+enddecl
+integer main(){
+decl 
+enddecl
+begin
+    a();
+	return 0;
+end
+}

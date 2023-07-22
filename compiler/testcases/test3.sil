@@ -1,0 +1,13 @@
+
+decl
+	
+enddecl
+integer main(){
+decl 
+integer temp;
+boolean temp;
+enddecl
+begin
+	return 0;
+end
+}

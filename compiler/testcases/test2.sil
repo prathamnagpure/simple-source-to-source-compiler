@@ -1,0 +1,10 @@
+
+decl
+enddecl
+integer main(){
+decl enddecl
+begin
+    temp=1;
+	return 0;
+end
+}

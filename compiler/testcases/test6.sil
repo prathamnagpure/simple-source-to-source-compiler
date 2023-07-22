@@ -1,0 +1,51 @@
+decl
+	integer a[10];
+    boolean b[10];
+    integer x,y;
+    boolean p,q;
+enddecl
+integer main(){
+decl integer i; enddecl
+begin
+    write("Enter value of x");
+    read(x);
+    write("Enter value of y");
+    read(y);
+    if(x > y) then
+        p=true;
+        q=false;
+    else 
+        p=false;
+        q=true;
+    endif
+    a[0]=x+y;
+    a[1]=x-y;
+    a[2]=x*y;
+    a[3]=x/y;
+    a[4]=x%y;
+
+    b[0]=x<y;
+    b[1]=x>y;
+    b[2]=x>=y;
+    b[3]=x<=y;
+    b[4]=x!=y;
+    b[5]=x==y;
+
+    b[6]=p AND q;
+    b[7]=p OR q;
+    b[8]=NOT p;
+    write("a\n");
+    for(i=0;i<5;i=i+1)
+    {
+    	write(a[i]);
+    	write("\n");
+    }
+    write("b\n");
+    for(i=0;i<9;i=i+1)
+    {
+    	write(b[i]);
+    	write("\n");
+    }
+    return 0;
+end
+}
